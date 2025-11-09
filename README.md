@@ -98,27 +98,6 @@ python -m src.train \
 - `--save_dir`: 结果保存目录（默认results）
 - `--seed`: 随机种子（默认42）
 
-## 实现的功能
-
-### 基础功能（60-70分）
-- ✅ 多头自注意力机制（Multi-Head Self-Attention）
-- ✅ 位置前馈网络（Position-wise FFN）
-- ✅ 残差连接 + LayerNorm
-- ✅ 位置编码（Positional Encoding）
-
-### 进阶功能（70-80分）
-- ✅ 完整的Transformer编码器
-- ✅ 训练稳定性技术：
-  - ✅ 学习率调度（CosineAnnealingLR）
-  - ✅ 梯度裁剪（Gradient Clipping）
-  - ✅ AdamW优化器
-- ✅ 参数统计
-- ✅ 模型保存/加载
-- ✅ 训练曲线可视化
-
-### 高级功能（80-90分）
-- ✅ Transformer解码器实现
-- ✅ 完整的Encoder-Decoder架构
 
 ## 实验结果
 
